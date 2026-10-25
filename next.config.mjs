@@ -5,5 +5,11 @@ const nextConfig = {
     unoptimized: true,
   },
 };
-
+const nextConfig = {
+  serverExternalPackages: [
+    "firebase-admin",
+    "jwks-rsa",
+    "jose"
+  ]
+};
 export default nextConfig;
